@@ -25,6 +25,8 @@ class Menu {
 	function GetMenu($savetofile = false, $option = false) {
 		global $tc_db, $dwoo, $dwoo_data, $kusabaxorg;
 
+		require_once KU_ROOTDIR.'lib/dwoo.php';
+
 		$dwoo_data->assign('boardpath', getCLBoardPath());
 
 		if (KU_MENUTYPE == 'normal') {

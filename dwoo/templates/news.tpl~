@@ -20,7 +20,7 @@
 	<div style="border:1px solid #d9d9d9; text-align:center;">
 		<table style="border:1px solid #a0a0a0; width:740px; margin:auto; text-align:left;" cellspacing="3">
 			<tr style="background:#ffccaa; padding:3px; width:100%;">
-				<td style="font-weight:bold; font-size:1.4em; color:#880000; width:100%;">Boards</td>
+				<td style="font-weight:bold; font-size:1.4em; color:#880000;">Boards</td>
 			</tr>
 			{$menu}
 		</table>
